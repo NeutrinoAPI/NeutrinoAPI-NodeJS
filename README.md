@@ -1,5 +1,7 @@
 NeutrinoAPILib
 =================
+Welcome to the Neutrino API Node.js SDK. See: https://www.neutrinoapi.com/
+
 This file was automatically generated for NeutrinoAPI.com by APIMATIC BETA v2.0 on 12/10/2015
 
 
