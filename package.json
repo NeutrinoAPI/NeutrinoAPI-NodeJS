@@ -1,12 +1,11 @@
 {
   "name": "neutrinoapi",
-  "version": "3.3.6",
+  "version": "3.4.0",
   "description": "The general-purpose API",
   "main": "./lib/index.js",
   "scripts": {
     "lint": "eslint lib"
   },
-  "keywords": [],
   "author": "APIMATIC SDK Generator",
   "bugs": {
     "email": "support@apimatic.io"
@@ -19,8 +18,8 @@
     "eslint-plugin-react": "^6.10.3"
   },
   "dependencies": {
-    "request": "^2.55.0",
-    "moment": "^2.17.1"
+    "moment": "^2.17.1",
+    "request": "^2.55.0"
   },
   "eslintConfig": {
     "extends": "airbnb",
@@ -30,7 +29,10 @@
       "mocha": true
     },
     "rules": {
-      "indent": ["error", 4],
+      "indent": [
+        "error",
+        4
+      ],
       "no-underscore-dangle": 0,
       "strict": 0,
       "prefer-rest-params": 0
