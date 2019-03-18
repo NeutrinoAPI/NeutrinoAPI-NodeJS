@@ -1,14 +1,14 @@
 {
   "name": "neutrinoapi",
-  "version": "3.4.0",
+  "version": "3.4.1",
   "description": "The general-purpose API",
   "main": "./lib/index.js",
   "scripts": {
     "lint": "eslint lib"
   },
-  "author": "APIMATIC SDK Generator",
+  "author": "NeutrinoAPI",
   "bugs": {
-    "email": "support@apimatic.io"
+    "email": "tech@neutrinoapi.com"
   },
   "devDependencies": {
     "eslint": "^3.18.0",
