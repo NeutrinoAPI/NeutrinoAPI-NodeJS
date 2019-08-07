@@ -1,15 +1,20 @@
 {
   "name": "neutrinoapi",
-  "version": "3.4.1",
+  "version": "3.4.3",
   "description": "The general-purpose API",
   "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/username/repository.git"
+  },
   "scripts": {
     "lint": "eslint lib"
   },
-  "author": "NeutrinoAPI",
+  "author": "Neutrino API",
   "bugs": {
     "email": "tech@neutrinoapi.com"
   },
+  "license": "MIT",
   "devDependencies": {
     "eslint": "^3.18.0",
     "eslint-config-airbnb": "^14.1.0",
