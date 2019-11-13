@@ -5,7 +5,7 @@
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/NeutrinoAPI/NeutrinoAPI-NodeJS.git"
+    "url": "https://github.com/NeutrinoAPI/NeutrinoAPI-NodeJS.git"
   },
   "author": "Neutrino API",
   "bugs": {
