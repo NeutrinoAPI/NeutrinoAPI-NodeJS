@@ -1,6 +1,6 @@
 {
   "name": "neutrinoapi",
-  "version": "3.4.3",
+  "version": "3.4.5",
   "description": "The general-purpose API",
   "main": "./lib/index.js",
   "repository": {

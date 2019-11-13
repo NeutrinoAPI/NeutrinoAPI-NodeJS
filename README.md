@@ -73,8 +73,8 @@ function imageResize(imageUrl, width, height, format, callback)
 ```javascript
 
     var imageUrl = 'image-url';
-    var width = 22;
-    var height = 22;
+    var width = 104;
+    var height = 104;
     var format = 'format';
 
     TestHelper.getFileContents('url', function(data) {
@@ -111,8 +111,8 @@ function qRCode(content, width, height, fgColor, bgColor, callback)
 ```javascript
 
     var content = 'content';
-    var width = 22;
-    var height = 22;
+    var width = 104;
+    var height = 104;
     var fgColor = 'fg-color';
     var bgColor = 'bg-color';
 
@@ -153,11 +153,11 @@ function imageWatermark(imageUrl, watermarkUrl, opacity, format, position, width
 
     var imageUrl = 'image-url';
     var watermarkUrl = 'watermark-url';
-    var opacity = 22;
+    var opacity = 104;
     var format = 'format';
     var position = 'position';
-    var width = 22;
-    var height = 22;
+    var width = 104;
+    var height = 104;
 
     TestHelper.getFileContents('url', function(data) {
         controller.imageWatermark(imageUrl, watermarkUrl, opacity, format, position, width, height, function(error, response, context) {
@@ -226,37 +226,37 @@ function hTML5Render(content, format, pageSize, title, margin, marginLeft, margi
     var format = 'format';
     var pageSize = 'page-size';
     var title = 'title';
-    var margin = 22;
-    var marginLeft = 22;
-    var marginRight = 22;
-    var marginTop = 22;
-    var marginBottom = 22;
+    var margin = 104;
+    var marginLeft = 104;
+    var marginRight = 104;
+    var marginTop = 104;
+    var marginBottom = 104;
     var landscape = false;
-    var zoom = 22;
+    var zoom = 104;
     var grayscale = false;
     var mediaPrint = false;
     var mediaQueries = false;
     var forms = false;
     var css = 'css';
-    var imageWidth = 22;
-    var imageHeight = 22;
-    var renderDelay = 22;
+    var imageWidth = 104;
+    var imageHeight = 104;
+    var renderDelay = 104;
     var headerTextLeft = 'header-text-left';
     var headerTextCenter = 'header-text-center';
     var headerTextRight = 'header-text-right';
-    var headerSize = 22;
+    var headerSize = 104;
     var headerFont = 'header-font';
-    var headerFontSize = 22;
+    var headerFontSize = 104;
     var headerLine = false;
     var footerTextLeft = 'footer-text-left';
     var footerTextCenter = 'footer-text-center';
     var footerTextRight = 'footer-text-right';
-    var footerSize = 22;
+    var footerSize = 104;
     var footerFont = 'footer-font';
-    var footerFontSize = 22;
+    var footerFontSize = 104;
     var footerLine = false;
-    var pageWidth = 22;
-    var pageHeight = 22;
+    var pageWidth = 104;
+    var pageHeight = 104;
 
     TestHelper.getFileContents('url', function(data) {
         controller.hTML5Render(content, format, pageSize, title, margin, marginLeft, marginRight, marginTop, marginBottom, landscape, zoom, grayscale, mediaPrint, mediaQueries, forms, css, imageWidth, imageHeight, renderDelay, headerTextLeft, headerTextCenter, headerTextRight, headerSize, headerFont, headerFontSize, headerLine, footerTextLeft, footerTextCenter, footerTextRight, footerSize, footerFont, footerFontSize, footerLine, pageWidth, pageHeight, function(error, response, context) {
@@ -398,8 +398,8 @@ function sMSVerify(number, codeLength, securityCode, countryCode, languageCode, 
 ```javascript
 
     var number = 'number';
-    var codeLength = 22;
-    var securityCode = 22;
+    var codeLength = 104;
+    var securityCode = 104;
     var countryCode = 'country-code';
     var languageCode = 'language-code';
 
@@ -471,9 +471,9 @@ function phoneVerify(number, codeLength, securityCode, playbackDelay, countryCod
 ```javascript
 
     var number = 'number';
-    var codeLength = 22;
-    var securityCode = 22;
-    var playbackDelay = 22;
+    var codeLength = 104;
+    var securityCode = 104;
+    var playbackDelay = 104;
     var countryCode = 'country-code';
     var languageCode = 'language-code';
 
@@ -785,7 +785,7 @@ function hostReputation(host, listRating, callback)
 ```javascript
 
     var host = 'host';
-    var listRating = 22;
+    var listRating = 104;
 
     controller.hostReputation(host, listRating, function(error, response, context) {
 
@@ -993,7 +993,7 @@ function uRLInfo(url, fetchContent, ignoreCertificateErrors, timeout, callback)
     var url = 'url';
     var fetchContent = false;
     var ignoreCertificateErrors = false;
-    var timeout = 22;
+    var timeout = 104;
 
     controller.uRLInfo(url, fetchContent, ignoreCertificateErrors, timeout, function(error, response, context) {
 
@@ -1052,7 +1052,7 @@ function browserBot(url, timeout, delay, selector, exec, userAgent, ignoreCertif
 | timeout |  ``` Optional ```  ``` DefaultValue ```  | Timeout in seconds. Give up if still trying to load the page after this number of seconds |
 | delay |  ``` Optional ```  ``` DefaultValue ```  | Delay in seconds to wait before capturing any page data, executing selectors or JavaScript |
 | selector |  ``` Optional ```  | Extract content from the page DOM using this selector. Commonly known as a CSS selector, you can find a good reference <a href="https://www.w3schools.com/cssref/css_selectors.asp">here</a> |
-| exec |  ``` Optional ```  ``` Collection ```  ``` DefaultValue ```  | Execute JavaScript on the page. Each array element should contain a valid JavaScript statement in string form. If a statement returns any kind of value it will be returned in the 'exec-results' response. For your convenience you can also use the following special shortcut functions: <div> sleep(seconds); Just wait/sleep for the specified number of seconds. click('selector'); Click on the first element matching the given selector. focus('selector'); Focus on the first element matching the given selector. keys('characters'); Send the specified keyboard characters. Use click() or focus() first to send keys to a specific element. enter(); Send the Enter key. tab(); Send the Tab key. </div> Example: <div> [ "click('#button-id')", "sleep(1)", "click('.field-class')", "keys('1234')", "enter()" ] </div> |
+| exec |  ``` Optional ```  ``` Collection ```  | Execute JavaScript on the page. Each array element should contain a valid JavaScript statement in string form. If a statement returns any kind of value it will be returned in the 'exec-results' response. For your convenience you can also use the following special shortcut functions: <div> sleep(seconds); Just wait/sleep for the specified number of seconds. click('selector'); Click on the first element matching the given selector. focus('selector'); Focus on the first element matching the given selector. keys('characters'); Send the specified keyboard characters. Use click() or focus() first to send keys to a specific element. enter(); Send the Enter key. tab(); Send the Tab key. </div> Example: <div> [ "click('#button-id')", "sleep(1)", "click('.field-class')", "keys('1234')", "enter()" ] </div> |
 | userAgent |  ``` Optional ```  | Override the browsers default user-agent string with this one |
 | ignoreCertificateErrors |  ``` Optional ```  ``` DefaultValue ```  | Ignore any TLS/SSL certificate errors and load the page anyway |
 
@@ -1063,8 +1063,8 @@ function browserBot(url, timeout, delay, selector, exec, userAgent, ignoreCertif
 ```javascript
 
     var url = 'url';
-    var timeout = 22;
-    var delay = 22;
+    var timeout = 104;
+    var delay = 104;
     var selector = 'selector';
     var exec = ['exec'];
     var userAgent = 'user-agent';
