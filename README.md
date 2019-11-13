@@ -73,8 +73,8 @@ function imageResize(imageUrl, width, height, format, callback)
 ```javascript
 
     var imageUrl = 'image-url';
-    var width = 104;
-    var height = 104;
+    var width = 111;
+    var height = 111;
     var format = 'format';
 
     TestHelper.getFileContents('url', function(data) {
@@ -111,8 +111,8 @@ function qRCode(content, width, height, fgColor, bgColor, callback)
 ```javascript
 
     var content = 'content';
-    var width = 104;
-    var height = 104;
+    var width = 111;
+    var height = 111;
     var fgColor = 'fg-color';
     var bgColor = 'bg-color';
 
@@ -153,11 +153,11 @@ function imageWatermark(imageUrl, watermarkUrl, opacity, format, position, width
 
     var imageUrl = 'image-url';
     var watermarkUrl = 'watermark-url';
-    var opacity = 104;
+    var opacity = 111;
     var format = 'format';
     var position = 'position';
-    var width = 104;
-    var height = 104;
+    var width = 111;
+    var height = 111;
 
     TestHelper.getFileContents('url', function(data) {
         controller.imageWatermark(imageUrl, watermarkUrl, opacity, format, position, width, height, function(error, response, context) {
@@ -226,37 +226,37 @@ function hTML5Render(content, format, pageSize, title, margin, marginLeft, margi
     var format = 'format';
     var pageSize = 'page-size';
     var title = 'title';
-    var margin = 104;
-    var marginLeft = 104;
-    var marginRight = 104;
-    var marginTop = 104;
-    var marginBottom = 104;
+    var margin = 111;
+    var marginLeft = 111;
+    var marginRight = 111;
+    var marginTop = 111;
+    var marginBottom = 111;
     var landscape = false;
-    var zoom = 104;
+    var zoom = 111;
     var grayscale = false;
     var mediaPrint = false;
     var mediaQueries = false;
     var forms = false;
     var css = 'css';
-    var imageWidth = 104;
-    var imageHeight = 104;
-    var renderDelay = 104;
+    var imageWidth = 111;
+    var imageHeight = 111;
+    var renderDelay = 111;
     var headerTextLeft = 'header-text-left';
     var headerTextCenter = 'header-text-center';
     var headerTextRight = 'header-text-right';
-    var headerSize = 104;
+    var headerSize = 111;
     var headerFont = 'header-font';
-    var headerFontSize = 104;
+    var headerFontSize = 111;
     var headerLine = false;
     var footerTextLeft = 'footer-text-left';
     var footerTextCenter = 'footer-text-center';
     var footerTextRight = 'footer-text-right';
-    var footerSize = 104;
+    var footerSize = 111;
     var footerFont = 'footer-font';
-    var footerFontSize = 104;
+    var footerFontSize = 111;
     var footerLine = false;
-    var pageWidth = 104;
-    var pageHeight = 104;
+    var pageWidth = 111;
+    var pageHeight = 111;
 
     TestHelper.getFileContents('url', function(data) {
         controller.hTML5Render(content, format, pageSize, title, margin, marginLeft, marginRight, marginTop, marginBottom, landscape, zoom, grayscale, mediaPrint, mediaQueries, forms, css, imageWidth, imageHeight, renderDelay, headerTextLeft, headerTextCenter, headerTextRight, headerSize, headerFont, headerFontSize, headerLine, footerTextLeft, footerTextCenter, footerTextRight, footerSize, footerFont, footerFontSize, footerLine, pageWidth, pageHeight, function(error, response, context) {
@@ -398,8 +398,8 @@ function sMSVerify(number, codeLength, securityCode, countryCode, languageCode, 
 ```javascript
 
     var number = 'number';
-    var codeLength = 104;
-    var securityCode = 104;
+    var codeLength = 111;
+    var securityCode = 111;
     var countryCode = 'country-code';
     var languageCode = 'language-code';
 
@@ -471,9 +471,9 @@ function phoneVerify(number, codeLength, securityCode, playbackDelay, countryCod
 ```javascript
 
     var number = 'number';
-    var codeLength = 104;
-    var securityCode = 104;
-    var playbackDelay = 104;
+    var codeLength = 111;
+    var securityCode = 111;
+    var playbackDelay = 111;
     var countryCode = 'country-code';
     var languageCode = 'language-code';
 
@@ -785,7 +785,7 @@ function hostReputation(host, listRating, callback)
 ```javascript
 
     var host = 'host';
-    var listRating = 104;
+    var listRating = 111;
 
     controller.hostReputation(host, listRating, function(error, response, context) {
 
@@ -993,7 +993,7 @@ function uRLInfo(url, fetchContent, ignoreCertificateErrors, timeout, callback)
     var url = 'url';
     var fetchContent = false;
     var ignoreCertificateErrors = false;
-    var timeout = 104;
+    var timeout = 111;
 
     controller.uRLInfo(url, fetchContent, ignoreCertificateErrors, timeout, function(error, response, context) {
 
@@ -1063,8 +1063,8 @@ function browserBot(url, timeout, delay, selector, exec, userAgent, ignoreCertif
 ```javascript
 
     var url = 'url';
-    var timeout = 104;
-    var delay = 104;
+    var timeout = 111;
+    var delay = 111;
     var selector = 'selector';
     var exec = ['exec'];
     var userAgent = 'user-agent';

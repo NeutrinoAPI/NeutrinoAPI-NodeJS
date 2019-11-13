@@ -5,42 +5,15 @@
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/username/repository.git"
-  },
-  "scripts": {
-    "lint": "eslint lib"
+    "url": "git://github.com/NeutrinoAPI/NeutrinoAPI-NodeJS.git"
   },
   "author": "Neutrino API",
   "bugs": {
     "email": "tech@neutrinoapi.com"
   },
   "license": "MIT",
-  "devDependencies": {
-    "eslint": "^3.18.0",
-    "eslint-config-airbnb": "^14.1.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.10.3"
-  },
   "dependencies": {
     "moment": "^2.17.1",
     "request": "^2.55.0"
-  },
-  "eslintConfig": {
-    "extends": "airbnb",
-    "env": {
-      "commonjs": true,
-      "node": true,
-      "mocha": true
-    },
-    "rules": {
-      "indent": [
-        "error",
-        4
-      ],
-      "no-underscore-dangle": 0,
-      "strict": 0,
-      "prefer-rest-params": 0
-    }
   }
 }
